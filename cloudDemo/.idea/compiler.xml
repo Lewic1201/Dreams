@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloudDemo" />
+        <module name="demothird" />
+        <module name="eureka" />
+        <module name="feign" />
+        <module name="ribbon" />
+        <module name="ribbon-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="springdemo" target="1.8" />
+      <module name="ssmdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demothird" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="ribbon-consumer" options="-parameters" />
+      <module name="springdemo" options="-parameters" />
+      <module name="ssmdemo" options="-parameters" />
+    </option>
+  </component>
+</project>
